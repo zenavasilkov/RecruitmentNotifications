@@ -1,4 +1,4 @@
-﻿namespace IMS.NotificationsCore.Options;
+﻿namespace RecruitmetNotifications.Options;
 
 public class RabbitMqOptions
 {
