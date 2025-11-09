@@ -1,6 +1,6 @@
 ﻿namespace RecruitmetNotifications.Messages;
 
-public record InterviewCanceledEvent(
+public record InterviewCancelledEvent(
     string CandidateEmail,
     string InterviewerEmail,
     string InterviewType,
