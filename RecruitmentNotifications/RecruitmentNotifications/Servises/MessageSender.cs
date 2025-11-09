@@ -5,7 +5,7 @@ namespace RecruitmetNotifications.Servises;
 
 public class MessageSender(IPublishEndpoint publishEndpoint) : IMessageSender
 {
-    public Task NotifyCandidatePassedToInterview(CandidatePassedToIntershipEvent message,
+    public Task NotifyCandidatePassedToInterview(CandidatePassedToInternshipEvent message,
         CancellationToken cancellationToken) => publishEndpoint.Publish(message, cancellationToken);
 
     public Task NotifyInterviewCancelled(InterviewCancelledEvent message,
