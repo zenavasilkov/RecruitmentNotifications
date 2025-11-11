@@ -1,4 +1,4 @@
-﻿namespace RecruitmetNotifications.Options;
+﻿namespace RecruitmentNotifications.Options;
 
 public class RabbitMqOptions
 {

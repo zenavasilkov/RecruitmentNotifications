@@ -2,10 +2,10 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using RecruitmetNotifications.Options;
-using RecruitmetNotifications.Servises;
+using RecruitmentNotifications.Options;
+using RecruitmentNotifications.Servises;
 
-namespace RecruitmetNotifications.Extensions;
+namespace RecruitmentNotifications.Extensions;
 
 public static class ServiceExtensionCollections
 {

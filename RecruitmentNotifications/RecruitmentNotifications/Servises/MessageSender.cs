@@ -1,7 +1,7 @@
 ﻿using MassTransit;
-using RecruitmetNotifications.Messages;
+using RecruitmentNotifications.Messages;
 
-namespace RecruitmetNotifications.Servises;
+namespace RecruitmentNotifications.Servises;
 
 public class MessageSender(IPublishEndpoint publishEndpoint) : IMessageSender
 {
